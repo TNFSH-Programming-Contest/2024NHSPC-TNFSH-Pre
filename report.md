@@ -18,7 +18,7 @@
 | solution | [:x:](pA/solution)<br>[correct.cpp](pA/solution/correct.cpp) | [:x:](pB/solution)<br>[correct.cpp](pB/solution/correct.cpp) | [:x:](pC/solution)<br>[correct.cpp](pC/solution/correct.cpp) | [:x:](pD/solution)<br>[correct.cpp](pD/solution/correct.cpp) | [:x:](pE/solution)<br>[correct.cpp](pE/solution/correct.cpp) |
 | validator | [:x:](pA/validator)<br>[validator.cpp](pA/validator/validator.cpp) | [:x:](pB/validator)<br>[validator.cpp](pB/validator/validator.cpp) | [:x:](pC/validator)<br>[validator.cpp](pC/validator/validator.cpp) | [:white_check_mark:](pD/validator) | [:x:](pE/validator)<br>[validator.cpp](pE/validator/validator.cpp) |
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:warning:](pD/subtasks.json) Not set | [:white_check_mark:](pE/subtasks.json) |
-| tests | [:x:](pA/tests)<br>[Auto build disabled](pA/gen/DISABLE_AUTO_BUILD) | [:x:](pB/tests)<br>[Auto build disabled](pB/gen/DISABLE_AUTO_BUILD) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:x:](pD/tests)<br>[Auto build disabled](pD/gen/DISABLE_AUTO_BUILD) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
+| tests | [:x:](pA/tests)<br>[Auto build disabled](pA/gen/DISABLE_AUTO_BUILD) | [:x:](pB/tests)<br>[Auto build disabled](pB/gen/DISABLE_AUTO_BUILD) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/tests)<br>[Auto build disabled](pD/gen/DISABLE_AUTO_BUILD) | [:x:](pE/tests)<br>[Auto build disabled](pE/gen/DISABLE_AUTO_BUILD) |
 | statement/index.md | [:x:](pA/statement/index.md) | [:x:](pB/statement/index.md) | [:x:](pC/statement/index.md) | [:white_check_mark:](pD/statement/index.md) | [:x:](pE/statement/index.md) |
 | statement/index.pdf | [:x:](pA/statement/index.pdf)<br>[Auto build disabled](pA/statement/DISABLE_AUTO_BUILD) | [:x:](pB/statement/index.pdf)<br>[Auto build disabled](pB/statement/DISABLE_AUTO_BUILD) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/statement/index.pdf)<br>[Auto build disabled](pD/statement/DISABLE_AUTO_BUILD) | [:x:](pE/statement/index.pdf)<br>[Auto build disabled](pE/statement/DISABLE_AUTO_BUILD) |
 
@@ -32,7 +32,7 @@
 | A | 100<br>無額外限制 |
 | B | 100<br>無額外限制 |
 | C | 100<br>無額外限制 |
-| D | 18<br>n≤2000 | 18<br>x=0,y=10^{18} | 20<br>y=10^{18} | 10<br>x=y=0 | 10<br>x=0 | 10<br>x=y | 14<br>無額外限制 |
+| D | 18<br>$n\le 2000$ | 18<br>$x=0,y=10^{18}$ | 20<br>$y=10^{18}$ | 10<br>$x=y=0$ | 10<br>$x=0$ | 10<br>$x=y$ | 14<br>無額外限制 |
 | E | 100<br>無額外限制 |
 
 <!-- subtasks end -->
