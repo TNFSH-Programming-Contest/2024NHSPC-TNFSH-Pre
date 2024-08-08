@@ -33,11 +33,23 @@
 
 \clearpage
 
-## 範例輸入
+## 範例輸入1
 \testfile{0-01.in}
 
-## 範例輸出
+## 範例輸出1
 \testfile{0-01.out}
+
+## 範例輸入2
+\testfile{0-02.in}
+
+## 範例輸出2
+\testfile{0-02.out}
+
+## 範例輸入3
+\testfile{0-03.in}
+
+## 範例輸出3
+\testfile{0-03.out}
 
 ## 範例說明
 範例測資1說明:
