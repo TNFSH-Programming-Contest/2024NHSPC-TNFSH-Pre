@@ -11,11 +11,8 @@ int main(int argc, char* argv[]) {
 	inf.readLong(0,1e18);
 	inf.readEoln();
 	
-	while(n--){
-		inf.readInt(-1e9,1e9);
-		if(n)inf.readSpace();
-		else inf.readEoln();
-	}
+	inf.readInts(n,-1e9,1e9);
+	inf.readEoln();
 	inf.readEof();
 	return 0;
 }
