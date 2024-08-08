@@ -4,11 +4,8 @@ using namespace std;
 int a[(int)2e5+5];
 int main(int argc, char* argv[]){
 	registerGen(argc, argv, 1);
-    int start_index = atoi(argv[1]);
-    int end_index = atoi(argv[2]);
-    int subtask=atoi(argv[3]);
-    for(int idx=start_index; idx<=end_index; idx++){
-        startTest(idx);
+	int idx=atoi(argv[1]);
+	int subtask=atoi(argv[2]);
         int n=(subtask==1?rnd.next(1000,2000):rnd.next(100000,200000)),x;
         if(subtask==2||subtask==4||subtask==5)x=0;
         else if(idx%3==0)x=rnd.next(1,1000);
