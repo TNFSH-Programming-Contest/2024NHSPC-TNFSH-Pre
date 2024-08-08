@@ -8,9 +8,5 @@ int main(int argc, char* argv[]) {
 	// about testlib, see https://codeforces.com/blog/entry/18426
 
 	// TODO
-	inf.readInt(1, MAXN, "n");
-	inf.readEoln();
-	inf.readEof();
-
 	return 0;
 }
