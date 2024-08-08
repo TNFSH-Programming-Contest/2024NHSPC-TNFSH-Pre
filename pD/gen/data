@@ -4,22 +4,212 @@ manual example-2.in
 manual example-3.in
 
 @subtask 1
-gen	4 30 1
+gen 4 1
+gen 5 1
+gen 6 1
+gen 7 1
+gen 8 1
+gen 9 1
+gen 10 1
+gen 11 1
+gen 12 1
+gen 13 1
+gen 14 1
+gen 15 1
+gen 16 1
+gen 17 1
+gen 18 1
+gen 19 1
+gen 20 1
+gen 21 1
+gen 22 1
+gen 23 1
+gen 24 1
+gen 25 1
+gen 26 1
+gen 27 1
+gen 28 1
+gen 29 1
+gen 30 1
 
 @subtask 2
-gen	31 50 2
+gen 31 2
+gen 32 2
+gen 33 2
+gen 34 2
+gen 35 2
+gen 36 2
+gen 37 2
+gen 38 2
+gen 39 2
+gen 40 2
+gen 41 2
+gen 42 2
+gen 43 2
+gen 44 2
+gen 45 2
+gen 46 2
+gen 47 2
+gen 48 2
+gen 49 2
+gen 50 2
 
 @subtask 3
-gen	51 80 3
+gen 51 3
+gen 52 3
+gen 53 3
+gen 54 3
+gen 55 3
+gen 56 3
+gen 57 3
+gen 58 3
+gen 59 3
+gen 60 3
+gen 61 3
+gen 62 3
+gen 63 3
+gen 64 3
+gen 65 3
+gen 66 3
+gen 67 3
+gen 68 3
+gen 69 3
+gen 70 3
+gen 71 3
+gen 72 3
+gen 73 3
+gen 74 3
+gen 75 3
+gen 76 3
+gen 77 3
+gen 78 3
+gen 79 3
+gen 80 3
 
 @subtask 4
-gen	81 110 4
+gen 81 4
+gen 82 4
+gen 83 4
+gen 84 4
+gen 85 4
+gen 86 4
+gen 87 4
+gen 88 4
+gen 89 4
+gen 90 4
+gen 91 4
+gen 92 4
+gen 93 4
+gen 94 4
+gen 95 4
+gen 96 4
+gen 97 4
+gen 98 4
+gen 99 4
+gen 100 4
+gen 101 4
+gen 102 4
+gen 103 4
+gen 104 4
+gen 105 4
+gen 106 4
+gen 107 4
+gen 108 4
+gen 109 4
+gen 110 4
 
 @subtask 5
-gen	111 140 5
+gen 111 5
+gen 112 5
+gen 113 5
+gen 114 5
+gen 115 5
+gen 116 5
+gen 117 5
+gen 118 5
+gen 119 5
+gen 120 5
+gen 121 5
+gen 122 5
+gen 123 5
+gen 124 5
+gen 125 5
+gen 126 5
+gen 127 5
+gen 128 5
+gen 129 5
+gen 130 5
+gen 131 5
+gen 132 5
+gen 133 5
+gen 134 5
+gen 135 5
+gen 136 5
+gen 137 5
+gen 138 5
+gen 139 5
+gen 140 5
 
 @subtask 6
-gen	141 170 6
+gen 141 6
+gen 142 6
+gen 143 6
+gen 144 6
+gen 145 6
+gen 146 6
+gen 147 6
+gen 148 6
+gen 149 6
+gen 150 6
+gen 151 6
+gen 152 6
+gen 153 6
+gen 154 6
+gen 155 6
+gen 156 6
+gen 157 6
+gen 158 6
+gen 159 6
+gen 160 6
+gen 161 6
+gen 162 6
+gen 163 6
+gen 164 6
+gen 165 6
+gen 166 6
+gen 167 6
+gen 168 6
+gen 169 6
+gen 170 6
 
 @subtask 7
-gen	171 200 7
+gen 171 7
+gen 172 7
+gen 173 7
+gen 174 7
+gen 175 7
+gen 176 7
+gen 177 7
+gen 178 7
+gen 179 7
+gen 180 7
+gen 181 7
+gen 182 7
+gen 183 7
+gen 184 7
+gen 185 7
+gen 186 7
+gen 187 7
+gen 188 7
+gen 189 7
+gen 190 7
+gen 191 7
+gen 192 7
+gen 193 7
+gen 194 7
+gen 195 7
+gen 196 7
+gen 197 7
+gen 198 7
+gen 199 7
+gen 200 7
