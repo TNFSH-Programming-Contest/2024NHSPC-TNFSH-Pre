@@ -36,5 +36,4 @@ int main(int argc, char* argv[]){
             for(int i=0;i<n;i+=3)a[i]=-a[i];
         }
         for(int i=0;i<n;i++)cout<<a[i]<<" \n"[i==n-1];
-    }
 }
