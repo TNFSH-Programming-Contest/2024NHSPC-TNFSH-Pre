@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 	inf.readSpace();
 	inf.readInt(0,1e9);
 	inf.readSpace();
-	inf.readLong(0,1e18);
+	inf.readLong(0,(long long)1e18);
 	inf.readEoln();
 	
 	inf.readInts(n,-1e9,1e9);
