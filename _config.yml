@@ -9,4 +9,6 @@ exclude:
   - pD/tests/
   - pE/scripts/
   - pE/tests/
+  - pF/scripts/
+  - pF/tests/
 # NEWPROBLEM
