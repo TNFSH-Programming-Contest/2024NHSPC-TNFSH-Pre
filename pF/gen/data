@@ -28,6 +28,9 @@ gen 1 19
 gen 1 20
 
 @subtask 2
+manual big1-1.in
+manual big1-2.in
+manual big1-3.in
 gen 2 21
 gen 2 22
 gen 2 23
@@ -50,6 +53,9 @@ gen 2 39
 gen 2 40
 
 @subtask 3
+manual big2-1.in
+manual big2-2.in
+manual big2-3.in
 gen 3 41
 gen 3 42
 gen 3 43
@@ -72,6 +78,9 @@ gen 3 59
 gen 3 60
 
 @subtask 4
+manual big3-1.in
+manual big3-2.in
+manual big3-3.in
 gen 4 61
 gen 4 62
 gen 4 63
