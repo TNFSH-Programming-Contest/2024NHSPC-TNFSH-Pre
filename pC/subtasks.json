@@ -24,13 +24,13 @@
         "3": {
             "index": 3,
             "score": 15,
-            "text": "n\\le 5000",
+            "text": "$n\\le 5000$",
             "validators": []
         },
         "4": {
             "index": 4,
             "score": 15,
-            "text": "m\\le 10000",
+            "text": "$m\\le 10000$",
             "validators": []
         },
         "5": {
