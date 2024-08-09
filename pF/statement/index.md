@@ -1,31 +1,36 @@
-# TODO: 題目名稱
+# 簡短的問題
 
-<!-- \begin{figure}[h]
-\centering
-\includegraphics[width=2in]{TODO.jpg}
-\caption{TODO: 圖片說明}
-\end{figure} -->
-
-TODO: 題目敘述
-
-\clearpage
+輸入一個 $n$，請輸出 $2^n$ 除以 $10^9+9$ 的餘數。
 
 ## 輸入
-TODO: 輸入說明
+輸入只有一行，包含一個整數 $n$，意義如題目所述。
 
 ## 輸出
-TODO: 輸出說明
+輸出 $2^n$ 除以 $10^9+9$ 的餘數。
 
 ## 輸入限制
- - TODO: 輸入限制
+ - $0\le n\le 10^{10000000}$
 
 ## 子任務
 \subtasks
 
 \clearpage
 
-## 範例輸入
+## 範例輸入1
 \testfile{0-01.in}
 
-## 範例輸出
+## 範例輸出1
 \testfile{0-01.out}
+
+## 範例輸入2
+\testfile{0-02.in}
+
+## 範例輸出2
+\testfile{0-02.out}
+
+## 範例說明
+範例測資1說明:\
+$2^10=1024$。
+
+範例測資2說明:\
+$2^30=1073741824$，除以 $10^9+9$ 的餘數為 $73741815$。
