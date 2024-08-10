@@ -7,7 +7,7 @@
 
 | | A | B | C | D | E | F |
 | --- | --- | --- | --- | --- | --- | --- |
-| contest_name |  [:x:](pA/problem.json) | [:x:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json) |
+| contest_name |  [:white_check_mark:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) | [:white_check_mark:](pF/problem.json) |
 | problem_label |  [:white_check_mark:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) | [:white_check_mark:](pF/problem.json) |
 | name |  [:x:](pA/problem.json) | [:x:](pB/problem.json) | [:white_check_mark:](pC/problem.json)<br>Friendship | [:white_check_mark:](pD/problem.json)<br>Collect | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>ShortProblem |
 | title |  [:x:](pA/problem.json) | [:x:](pB/problem.json) | [:white_check_mark:](pC/problem.json)<br>友誼悖論 | [:white_check_mark:](pD/problem.json)<br>忠孝東路走九遍 | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>簡短的問題 |
