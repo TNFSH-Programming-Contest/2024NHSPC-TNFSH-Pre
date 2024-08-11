@@ -12,7 +12,7 @@
 | name |  [:x:](pA/problem.json) | [:x:](pB/problem.json) | [:white_check_mark:](pC/problem.json)<br>Friendship | [:white_check_mark:](pD/problem.json)<br>Collect | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>ShortProblem |
 | title |  [:x:](pA/problem.json) | [:x:](pB/problem.json) | [:white_check_mark:](pC/problem.json)<br>友誼悖論 | [:white_check_mark:](pD/problem.json)<br>忠孝東路走九遍 | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>簡短的問題 |
 | memory_limit |  256 | 256 | 256 | 256 | 256 | 256 |
-| time_limit |  1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| time_limit |  1.0 | 1.0 | 2.0 | 1.0 | 1.0 | 1.0 |
 | has_checker |  False | False | False | False | False | False |
 | gen | [:x:](pA/gen)<br>[gen.cpp](pA/gen/gen.cpp)<br>[data](pA/gen/data) | [:x:](pB/gen)<br>[gen.cpp](pB/gen/gen.cpp)<br>[data](pB/gen/data) | [:white_check_mark:](pC/gen) | [:white_check_mark:](pD/gen) | [:x:](pE/gen)<br>[gen.cpp](pE/gen/gen.cpp)<br>[data](pE/gen/data) | [:white_check_mark:](pF/gen) |
 | solution | [:x:](pA/solution)<br>[correct.cpp](pA/solution/correct.cpp) | [:x:](pB/solution)<br>[correct.cpp](pB/solution/correct.cpp) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) | [:x:](pE/solution)<br>[correct.cpp](pE/solution/correct.cpp) | [:white_check_mark:](pF/solution) |
