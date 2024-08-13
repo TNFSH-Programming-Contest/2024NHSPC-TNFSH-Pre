@@ -1,4 +1,4 @@
-# 猜拳
+# 猜猜拳
 
 <!-- \begin{figure}[h]
 \centering
@@ -6,7 +6,9 @@
 \caption{TODO: 圖片說明}
 \end{figure} -->
 
-TODO: 題目敘述
+小杰非常喜歡玩猜猜拳，因此向你發起了猜拳挑戰！
+
+
 
 \clearpage
 
