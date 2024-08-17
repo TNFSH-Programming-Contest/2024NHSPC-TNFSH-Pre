@@ -6,7 +6,6 @@ int main(int argc, char* argv[]) {
 	registerGen(argc, argv, 1);
 	int subtask = atoi(argv[1]);
 	int idx = atoi(argv[2]);
-	idx--;
 	long long int a,b,c,d,e,f;
 	if(subtask==1){
 		if(idx%2)
