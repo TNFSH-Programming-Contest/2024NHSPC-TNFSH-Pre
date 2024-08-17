@@ -9,7 +9,10 @@ int main(int argc, char* argv[]) {
 	idx--;
 	long long int a,b,c,d,e,f;
 	if(subtask==1){
-		a=rnd.next(1,100000000),b=rnd.next(1,100000000),c=rnd.next(1,100000000),d=rnd.next(1,100000000),e=rnd.next(1,100000000),f=rnd.next(1,100000000);
+		a=rnd.next(1,100000000),b=rnd.next(1,100000000),c=rnd.next(1,100000000);
+		d=rnd.next(max(1LL,a+b+c-200000000),min(100000000LL,a+b+c-2));
+		e=rnd.next(max(1LL,a+b+c-d-100000000),min(100000000LL,a+b+c-d-1));
+		f=a+b+c-d-e;
 		if(idx%3==1)if(a<d)swap(a,d);
 		else if(idx%3==2)if(a>d)swap(a,d);
 		else a=d;
@@ -20,7 +23,10 @@ int main(int argc, char* argv[]) {
 		else if(idx/9%3==2)if(c>f)swap(c,f);
 		else c=f;
 	}else{
-		a=rnd.next(1000000000000000LL,1000000000000000000LL),b=rnd.next(1000000000000000LL,1000000000000000000LL),c=rnd.next(1000000000000000LL,1000000000000000000LL),d=rnd.next(1000000000000000LL,1000000000000000000LL),e=rnd.next(1000000000000000LL,1000000000000000000LL),f=rnd.next(1000000000000000LL,1000000000000000000LL);
+		a=rnd.next(1000000000000000LL,1000000000000000000LL),b=rnd.next(1000000000000000LL,1000000000000000000LL),c=rnd.next(1000000000000000LL,1000000000000000000LL);
+		d=rnd.next(max(1000000000000000LL,a+b+c-2000000000000000000LL),min(1000000000000000000LL,a+b+c-2000000000000000LL));
+		e=rnd.next(max(1000000000000000LL,a+b+c-d-1000000000000000000LL),min(1000000000000000000LL,a+b+c-d-1000000000000000LL));
+		f=a+b+c-d-e;
 		if(idx%3==1)if(a<d)swap(a,d);
 		else if(idx%3==2)if(a>d)swap(a,d);
 		else a=d;
