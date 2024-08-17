@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 	int idx = atoi(argv[2]);
 	long long int a,b,c,d,e,f;
 	if(subtask==1){
-		if(idx%2)
+		if(idx%2){
 			a=rnd.next(1,100000000),b=rnd.next(1,100000000),c=rnd.next(1,100000000);
 			d=rnd.next(max(1LL,a+b+c-200000000),min(100000000LL,a+b+c-2));
 			e=rnd.next(max(1LL,a+b+c-d-100000000),min(100000000LL,a+b+c-d-1));
