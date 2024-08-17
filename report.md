@@ -2,15 +2,15 @@
 ## Progress
 <!-- progress start -->
 
-- cover.tex [:x:](cover.tex)
+- cover.tex [:white_check_mark:](cover.tex)
 - appendix.tex [:x:](appendix.tex)
 
 | | A | B | C | D | E | F |
 | --- | --- | --- | --- | --- | --- | --- |
 | contest_name |  [:white_check_mark:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) | [:white_check_mark:](pF/problem.json) |
 | problem_label |  [:white_check_mark:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) | [:white_check_mark:](pF/problem.json) |
-| name |  [:white_check_mark:](pA/problem.json)<br>RockPaperScissors | [:x:](pB/problem.json) | [:white_check_mark:](pC/problem.json)<br>Friendship | [:white_check_mark:](pD/problem.json)<br>Collect | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>ShortProblem |
-| title |  [:white_check_mark:](pA/problem.json)<br>猜猜拳 | [:x:](pB/problem.json) | [:white_check_mark:](pC/problem.json)<br>友誼悖論 | [:white_check_mark:](pD/problem.json)<br>忠孝東路走九遍 | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>簡短的問題 |
+| name |  [:white_check_mark:](pA/problem.json)<br>RockPaperScissors | [:white_check_mark:](pB/problem.json)<br>BirthdayGift | [:white_check_mark:](pC/problem.json)<br>Friendship | [:white_check_mark:](pD/problem.json)<br>Collect | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>ShortProblem |
+| title |  [:white_check_mark:](pA/problem.json)<br>猜猜拳 | [:white_check_mark:](pB/problem.json)<br>生日禮物 | [:white_check_mark:](pC/problem.json)<br>友誼悖論 | [:white_check_mark:](pD/problem.json)<br>忠孝東路走九遍 | [:x:](pE/problem.json) | [:white_check_mark:](pF/problem.json)<br>簡短的問題 |
 | memory_limit |  256 | 256 | 256 | 256 | 256 | 256 |
 | time_limit |  1.0 | 1.0 | 2.0 | 1.0 | 1.0 | 1.0 |
 | has_checker |  False | False | False | False | False | False |
