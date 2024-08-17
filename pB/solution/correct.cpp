@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
-ll n, c, k, a[200005];
+ll n, s, a[200005];
 ll get(ll x){
-    int l=1, r=0;
+    ll l=1, r=0;
     ll tmp = 0, ans = 0;
     for(;l<=n;l++){
         while(tmp<x&&r<n)tmp+=a[++r];
