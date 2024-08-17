@@ -1,8 +1,8 @@
 {
 	"contest_name": "113學年度資訊學科能力競賽臺南一中校內初選",
 	"problem_label": "B",
-	"name": "TODO:_English_short_name",
-	"title": "TODO: 題目名稱",
+	"name": "BirthdayGift",
+	"title": "生日禮物",
 	"memory_limit": 256,
 	"time_limit": 1.0,
 	"type": "Batch",
