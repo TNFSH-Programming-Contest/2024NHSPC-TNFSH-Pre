@@ -22,15 +22,15 @@ gen 1 17
 gen 1 18
 gen 1 19
 gen 1 20
-gen 1 21
-gen 1 22
-gen 1 23
-gen 1 24
-gen 1 25
-gen 1 26
-gen 1 27
 
 @subtask 2
+gen 2 21
+gen 2 22
+gen 2 23
+gen 2 24
+gen 2 25
+gen 2 26
+gen 2 27
 gen 2 28
 gen 2 29
 gen 2 30
@@ -54,7 +54,3 @@ gen 2 47
 gen 2 48
 gen 2 49
 gen 2 50
-gen 2 51
-gen 2 52
-gen 2 53
-gen 2 54
