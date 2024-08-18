@@ -8,6 +8,7 @@ ll get(ll x){
     for(;l<=n;l++){
         while(tmp<x&&r<n)tmp+=a[++r];
         if(tmp>=x)ans+=(n-r+1);
+        tmp-=a[l];
     }
     return ans;
 }
