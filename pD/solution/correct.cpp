@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-int a[(int)2e5+5];
-long long int pre[(int)2e5+5];
+int a[(int)5e5+5];
+long long int pre[(int)5e5+5];
 multiset<long long int>ms;
 int main(){
     int n,x;
