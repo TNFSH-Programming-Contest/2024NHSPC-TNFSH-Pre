@@ -1,7 +1,7 @@
 #include "testlib.h"
 #include <bits/stdc++.h>
 using namespace std;
-int a[(int)2e5+5];
+int a[(int)5e5+5];
 int main(int argc, char* argv[]){
 	registerGen(argc, argv, 1);
 	int idx=atoi(argv[1]);
