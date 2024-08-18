@@ -14,7 +14,7 @@ ll get(ll x){
 void sol(){
     cin >> n >> c >> k;
     for(int i=1;i<=n;i++)cin >> a[i];
-    cout << get(c-k)-get(c+k) << endl;
+    cout << get(c-k)-get(c+k+1) << endl;
 }
 int main(){
     int tt = 1;
