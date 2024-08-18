@@ -8,6 +8,6 @@ int main(int argc, char* argv[]){
     if(subtask==1)cout<<rnd.next(100,10000000);
     else if(subtask==2)cout<<rnd.next(10000000000LL,1000000000000000000LL);
     else if(subtask==3)cout<<rnd.next("[1-9][0-9]{4999}");
-    else cout<<rnd.next("[1-9][0-9]{999999}");
+    else cout<<rnd.next("[1-9][0-9]{9999999}");
     cout<<'\n';
 }
