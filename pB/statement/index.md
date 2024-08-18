@@ -22,7 +22,7 @@
  - $1\le n\le 2\times 10^5$
  - $1\le a_i \le 10^9$
  - $1\le c\le 10^9$
- - $0\le k\le c$
+ - $0\le k<c$
 
 ## 子任務
 \subtasks
