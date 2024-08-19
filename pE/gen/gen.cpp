@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 		else if(idx%8==5)cout<<(i%17?rnd.next(900000,1000000):rnd.next(1,20))<<" \n"[i==n];
 		else if(idx%8==6)cout<<(i%50?rnd.next(900000,1000000):1)<<" \n"[i==n];
 		else if(idx%8==7)cout<<(i!=n?rnd.next(900000,1000000):1)<<" \n"[i==n];
-		else cout<<(i%2?i/2:1)<<" \n"[i==n];
+		else cout<<(i%2?max(1,i/2):1)<<" \n"[i==n];
 	}
 	return 0;
 }
