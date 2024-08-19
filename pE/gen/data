@@ -90,6 +90,7 @@ gen	4 79
 gen	4 80
 
 @subtask 5
+manual big-1.in
 gen	5 81
 gen	5 82
 gen	5 83
