@@ -12,9 +12,9 @@ void sol(){
     b-=tmp;d-=tmp;
     tmp=min(c, e);
     c-=tmp;e-=tmp;
-    if(a||d)tot-=a+d;
-    if(b||e)tot-=b+e;
-    if(c||f)tot-=c+f;
+    if(a||d)tot-=min(a, d);
+    if(b||e)tot-=min(b, e);
+    if(c||f)tot-=min(c, f);
     cout << abs(ans-tot) << endl;
     return;
 }
