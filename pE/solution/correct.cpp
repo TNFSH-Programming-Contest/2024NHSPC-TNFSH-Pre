@@ -15,7 +15,7 @@ int main(){
 	for(int i=1;i<=n;i++){
 		dp[i]=dp[i-1]+1ll*a[i]*a[i-1],last[i]=i-1;
 		if(p2[i-last[i-1]]<=E18/a[i]/a[last[i-1]]){
-			if(dp[last[i-1]]+a[i]*a[last[i-1]]*p2[i-last[i-1]]<dp[i])dp[i]=dp[last[i-1]]+a[i]*a[last[i-1]]*p2[i-last[i-1]],last[i]=last[i-1];
+			if(dp[last[i-1]]+p2[i-last[i-1]]*a[i]*a[last[i-1]]<dp[i])dp[i]=dp[last[i-1]]+p2[i-last[i-1]]*a[i]*a[last[i-1]],last[i]=last[i-1];
 		}
 	}
 	cout<<dp[n];
