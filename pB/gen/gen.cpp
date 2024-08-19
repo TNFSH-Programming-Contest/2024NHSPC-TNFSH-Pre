@@ -9,7 +9,8 @@ int main(int argc, char* argv[]) {
 	int n,c,k;
 	if(subtask==2)n=rnd.next(80,100);
 	else if(subtask==3)n=rnd.next(2500,3000);
-	else n=rnd.next(160000,200000);
+	else if(subtask==4)n=rnd.next(360000,400000);
+	else n=rnd.next(1800000,2000000);
 
 	if(idx%3==1)c=rnd.next(10,1000);
 	else if(idx%3==2)c=rnd.next(10000,1000000);

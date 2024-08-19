@@ -3,7 +3,7 @@
 	"problem_label": "B",
 	"name": "BirthdayGift",
 	"title": "生日禮物",
-	"memory_limit": 256,
+	"memory_limit": 16,
 	"time_limit": 1.0,
 	"type": "Batch",
 	"description": "",

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
-ll n, s, a[200005], c, k;
+ll n, s, a[2000005], c, k;
 ll get(ll x){
     ll l=1, r=0;
     ll tmp = 0, ans = 0;

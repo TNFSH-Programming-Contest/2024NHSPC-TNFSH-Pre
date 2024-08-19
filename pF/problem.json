@@ -3,7 +3,7 @@
 	"problem_label": "F",
 	"name": "ShortProblem",
 	"title": "簡短的問題",
-	"memory_limit": 256,
+	"memory_limit": 128,
 	"time_limit": 1.0,
 	"type": "Batch",
 	"description": "",
