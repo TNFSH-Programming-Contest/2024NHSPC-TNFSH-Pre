@@ -12,7 +12,7 @@
         "1": {
             "index": 1,
             "score": 8,
-            "text": "$a_i\\le 2$",
+            "text": "$a_i\\le 2$ 且 $n\\le 10^5$",
             "validators": []
         },
         "2": {

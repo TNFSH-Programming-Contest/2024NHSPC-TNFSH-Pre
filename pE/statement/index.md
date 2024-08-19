@@ -33,10 +33,10 @@
 輸出一個整數，代表宜漾到達餐廳時可能的最小潮濕度。
 
 ## 輸入限制
- - $1\le n\le 10^6$
+ - $1\le n\le 2\times 10^6$
  - $1\le a_i\le 10^6$
 
-<!-- ## 子任務
+## 子任務
 \subtasks
 
 \clearpage
@@ -45,4 +45,4 @@
 \testfile{0-01.in}
 
 ## 範例輸出
-\testfile{0-01.out} -->
+\testfile{0-01.out}
