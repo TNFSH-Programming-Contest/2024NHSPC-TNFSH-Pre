@@ -3,7 +3,6 @@
 <!-- progress start -->
 
 - cover.tex [:white_check_mark:](cover.tex)
-- appendix.tex [:x:](appendix.tex)
 
 | | A | B | C | D | E | F |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -33,7 +32,7 @@
 | B | 14<br>$k=0$ 且 $n\le 4	imes 10^5$ | 7<br>$n\le 100$ | 19<br>$n\le 3000$ | 40<br>$n\le 4	imes 10^5$ | 20<br>無額外限制 |
 | C | 15<br>$m=\frac{n(n-1)}{2}$ | 15<br>$n\le 100$ | 15<br>$n\le 5000$ | 15<br>$m\le 10000$ | 40<br>無額外限制 |
 | D | 18<br>$n\le 3000$ | 18<br>$x=0,y=10^{18}$ | 20<br>$y=10^{18}$ | 10<br>$x=y=0$ | 10<br>$x=0$ | 10<br>$x=y$ | 14<br>無額外限制 |
-| E | 8<br>$a_i\le 2$ 且 $n\le 10^5$ | 12<br>$n\le 20$ | 15<br>$n\le 3000$ | 35<br>$n\le 10^5$ | 30<br>$無額外限制$ |
+| E | 8<br>$a_i\le 2$ 且 $n\le 10^5$ | 12<br>$n\le 20$ | 15<br>$n\le 3000$ | 35<br>$n\le 10^5$ | 30<br>無額外限制 |
 | F | 25<br>$n\le 10^7$ | 25<br>$n\le 10^{18}$ | 25<br>$n\le 10^{5000}$ | 25<br>無額外限制 |
 
 <!-- subtasks end -->
