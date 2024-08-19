@@ -12,7 +12,7 @@
         "1": {
             "index": 1,
             "score": 14,
-            "text": "$k=0$ 且 $n\\le 4\times 10^5$",
+            "text": "$k=0$ 且 $n\\le 4\\times 10^5$",
             "validators": []
         },
         "2": {
@@ -30,7 +30,7 @@
         "4": {
             "index": 4,
             "score": 40,
-            "text": "$n\\le 4\times 10^5$",
+            "text": "$n\\le 4\\times 10^5$",
             "validators": []
         },
         "5": {
