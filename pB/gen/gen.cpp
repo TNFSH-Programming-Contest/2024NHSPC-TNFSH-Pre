@@ -31,7 +31,7 @@ int main(int argc, char* argv[]) {
 		}else if(idx%5==4){
 			cout<<(i%10?rnd.next(1,10):rnd.next(100000,1000000))<<" \n"[i==n-1];
 		}else{
-			cout<<(i==n/2?k:1)<<" \n"[i==n-1];
+			cout<<(i==n/2?max(1,k):1)<<" \n"[i==n-1];
 		}
 	}
 	return 0;
