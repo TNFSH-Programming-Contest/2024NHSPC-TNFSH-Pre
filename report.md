@@ -11,8 +11,8 @@
 | problem_label |  [:white_check_mark:](pA/problem.json) | [:white_check_mark:](pB/problem.json) | [:white_check_mark:](pC/problem.json) | [:white_check_mark:](pD/problem.json) | [:white_check_mark:](pE/problem.json) | [:white_check_mark:](pF/problem.json) |
 | name |  [:white_check_mark:](pA/problem.json)<br>RockPaperScissors | [:white_check_mark:](pB/problem.json)<br>BirthdayGift | [:white_check_mark:](pC/problem.json)<br>Friendship | [:white_check_mark:](pD/problem.json)<br>Collect | [:white_check_mark:](pE/problem.json)<br>RainyDay | [:white_check_mark:](pF/problem.json)<br>ShortProblem |
 | title |  [:white_check_mark:](pA/problem.json)<br>猜猜拳 | [:white_check_mark:](pB/problem.json)<br>生日禮物 | [:white_check_mark:](pC/problem.json)<br>友誼悖論 | [:white_check_mark:](pD/problem.json)<br>忠孝東路走九遍 | [:white_check_mark:](pE/problem.json)<br>下雨天 | [:white_check_mark:](pF/problem.json)<br>簡短的問題 |
-| memory_limit |  16 | 16 | 128 | 128 | 256 | 128 |
-| time_limit |  0.5 | 1.0 | 1.5 | 1.5 | 1.0 | 1.0 |
+| memory_limit |  16 | 64 | 128 | 128 | 256 | 128 |
+| time_limit |  0.5 | 0.5 | 1.5 | 1.5 | 1.0 | 1.0 |
 | has_checker |  False | False | False | False | False | False |
 | gen | [:white_check_mark:](pA/gen) | [:white_check_mark:](pB/gen) | [:white_check_mark:](pC/gen) | [:white_check_mark:](pD/gen) | [:x:](pE/gen)<br>[gen.cpp](pE/gen/gen.cpp)<br>[data](pE/gen/data) | [:white_check_mark:](pF/gen) |
 | solution | [:white_check_mark:](pA/solution) | [:white_check_mark:](pB/solution) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) | [:x:](pE/solution)<br>[correct.cpp](pE/solution/correct.cpp) | [:white_check_mark:](pF/solution) |
@@ -30,7 +30,7 @@
 | | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | A | 80<br>$a,b,c,d,e,f\le10^8$ | 20<br>無額外限制 |
-| B | 14<br>$k=0$ | 7<br>$n\le 100$ | 19<br>$n\le 3000$ | 40<br>$n\le 4	imes 10^5$ | 20<br>無額外限制 |
+| B | 14<br>$k=0$ 且 $n\le 4	imes 10^5$ | 7<br>$n\le 100$ | 19<br>$n\le 3000$ | 40<br>$n\le 4	imes 10^5$ | 20<br>無額外限制 |
 | C | 15<br>$m=\frac{n(n-1)}{2}$ | 15<br>$n\le 100$ | 15<br>$n\le 5000$ | 15<br>$m\le 10000$ | 40<br>無額外限制 |
 | D | 18<br>$n\le 3000$ | 18<br>$x=0,y=10^{18}$ | 20<br>$y=10^{18}$ | 10<br>$x=y=0$ | 10<br>$x=0$ | 10<br>$x=y$ | 14<br>無額外限制 |
 | E | 8<br>$a_i\le 2$ | 12<br>$n\le 20$ | 15<br>$n\le 3000$ | 35<br>$n\le 10^5$ | 30<br>$無額外限制$ |
