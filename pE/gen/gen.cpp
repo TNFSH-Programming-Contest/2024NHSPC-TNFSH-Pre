@@ -11,6 +11,7 @@ int main(int argc, char* argv[]) {
 	else if(subtask==3)n=rnd.next(2500,3000);
 	else if(subtask==4||subtask==1)n=rnd.next(80000,100000);
 	else n=rnd.next(1800000,2000000);
+	cout<<n<<'\n';
 	for(int i=0;i<=n;i++){
 		if(subtask==1)cout<<rnd.next(1,2)<<" \n"[i==n];
 		else if(idx%8==1)cout<<rnd.next(1,100)<<" \n"[i==n];
