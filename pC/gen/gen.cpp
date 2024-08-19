@@ -39,7 +39,7 @@ int main(int argc, char* argv[]){
 		vector<int>vec;
 		for(int i=1;i<=n;i++)vec.push_back(i);
 		shuffle(vec.begin(),vec.end());
-		for(int i=0;i<n;i+=2){
+		for(int i=0;i+1<n;i+=2){
 			e.push_back({vec[i],vec[i+1]});
 			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().first);
 		}
