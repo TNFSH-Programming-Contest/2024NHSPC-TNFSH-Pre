@@ -23,7 +23,7 @@ int main(int argc, char* argv[]){
 		for(int i=2;i<=n;i++){
 			if(rnd.next(2))e.push_back({i,rnd.next(1,i-1)});
 			else e.push_back({rnd.next(1,i-1),i});
-			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().second);
+			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().first);
 		}
 		int x[5];
 		if(subtask==2)x[0]=0,x[1]=100,x[2]=500,x[3]=2000,x[4]=10000;
@@ -41,11 +41,11 @@ int main(int argc, char* argv[]){
 		shuffle(vec.begin(),vec.end());
 		for(int i=0;i<n;i+=2){
 			e.push_back({vec[i],vec[i+1]});
-			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().second);
+			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().first);
 		}
 		if(n%2){
 			e.push_back({vec[n-1],vec[0]});
-			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().second);
+			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().first);
 		}
 		if(idx%2){
 			while(e.size()<10000){
@@ -60,7 +60,7 @@ int main(int argc, char* argv[]){
 		for(int i=2;i<=n;i++){
 			if(rnd.next(2))e.push_back({i,rnd.next(1,i-1)});
 			else e.push_back({rnd.next(1,i-1),i});
-			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().second);
+			s[e.back().first].insert(e.back().second),s[e.back().second].insert(e.back().first);
 		}
 		while(e.size()<1000000){
 			int u=rnd.next(1,n),v=rnd.next(1,n);
