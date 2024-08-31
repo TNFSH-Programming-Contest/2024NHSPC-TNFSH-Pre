@@ -4,7 +4,7 @@
 	"name": "Collect",
 	"title": "忠孝東路走九遍",
 	"memory_limit": 128,
-	"time_limit": 1.5,
+	"time_limit": 1.0,
 	"type": "Batch",
 	"description": "",
 	"tps_web_url": "",

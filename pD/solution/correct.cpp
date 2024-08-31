@@ -1,29 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
-int a[(int)5e5+5];
-long long int pre[(int)5e5+5];
-multiset<long long int>ms;
+int a[(int)2e6+5];
 int main(){
     int n,x;
-    long long int y,ans1=-1e18,sum=0;
+    long long int y,sum=0,mxpre=0,secmxpre=-1e18,mnpre=0,mxran=-1e18,mnran=0;
     cin>>n>>x>>y;
     for(int i=0;i<n;i++){
         cin>>a[i];
         a[i]-=x;
     }
-    ms.insert(0);
     for(int i=0;i<n;i++){
-        pre[i]=sum;
         sum+=a[i];
-        ans1=max(ans1,sum-*ms.begin());
-        ms.insert(sum);
+        mxran=max(mxran,sum-mnpre);
+        if(i!=n-1||mxpre!=0)mnran=min(mnran,sum-mxpre);
+        else mnran=min(mnran,sum-secmxpre);
+        secmxpre=max(secmxpre,sum);
+        if(secmxpre>mxpre)swap(secmxpre,mxpre);
+        mnpre=min(mnpre,sum);
     }
-    long long int ans2=ans1;
-    for(int i=0;i<n;i++){
-        ms.erase(ms.find(pre[i]));
-        sum+=a[i];
-        ans2=max(ans2,sum-*ms.begin());
-        ms.insert(sum);
-    }
-    cout<<max(ans1+x,ans2+x*2-y);
+    cout<<max(mxran+x,sum-mnran+x*2-y);
 }
