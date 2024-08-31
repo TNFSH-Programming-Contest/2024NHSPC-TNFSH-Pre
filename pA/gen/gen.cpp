@@ -6,8 +6,18 @@ int main(int argc, char* argv[]) {
 	registerGen(argc, argv, 1);
 	int subtask = atoi(argv[1]);
 	int idx = atoi(argv[2]);
-	long long int a,b,c,d,e,f;
+	long long int a=0,b=0,c=0,d=0,e=0,f=0;
 	if(subtask==1){
+		a=rnd.next(1,1000000000);
+		d=rnd.next(1LL,a-2);
+		e=rnd.next(1LL,a-d-1);
+		f=a-d-e;
+	}else if(subtask==2){
+		d=rnd.next(1,1000000000);
+		a=rnd.next(1LL,d-2);
+		b=rnd.next(1LL,d-a-1);
+		c=d-a-b;
+	}else if(subtask==3){
 		if(idx%2){
 			a=rnd.next(1,100000000),b=rnd.next(1,100000000),c=rnd.next(1,100000000);
 			d=rnd.next(max(1LL,a+b+c-200000000),min(100000000LL,a+b+c-2));
