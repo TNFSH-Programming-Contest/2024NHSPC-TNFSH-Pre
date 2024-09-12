@@ -4,6 +4,7 @@ using namespace std;
 int a[(int)2e6+5];
 unsigned long long int dp[(int)2e6+5];
 int main(){
+    cin.tie(0)->sync_with_stdio(0);
 	int n;
 	cin>>n;
 	for(int i=0;i<=n;i++){
@@ -12,7 +13,7 @@ int main(){
 	}
 	for(int i=1;i<=n;i++){
         unsigned long long int x=1;
-        for(int j=1;j<=min(40,i);j++){
+        for(int j=1;j<=min(25,i);j++){
 		    if(x<=E18/a[i]/a[i-j]){
 		    	if(dp[i-j]+x*a[i]*a[i-j]<dp[i])dp[i]=dp[i-j]+x*a[i]*a[i-j];
 		    }
