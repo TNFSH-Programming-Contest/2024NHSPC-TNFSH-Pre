@@ -4,7 +4,7 @@
 ## Quick Links
 * [題本](https://tnfsh-programming-contest.github.io/2024NHSPC-TNFSH-Pre/pA/attachments/problems.pdf) - [View in GitHub](pA/attachments/problems.pdf)
 * [記分板](https://tnfsh-programming-contest.github.io/2024NHSPC-TNFSH-Pre/ranking/Ranking.html)
-* [題解](https://tnfsh-programming-contest.github.io/2022NHSPC-TNFSH-Final/solutions.pdf) - [View in GitHub](solutions.pdf)
+* [題解](https://tnfsh-programming-contest.github.io/2024NHSPC-TNFSH-Pre/solutions.pdf) - [View in GitHub](solutions.pdf)
 
 | problem | statement | gen | validator | solution | tests | config |
 | --- | --- | --- | --- | --- | --- | --- |
